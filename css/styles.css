@@ -54,12 +54,15 @@ a {
 }
 
 .hero-section {
+  background-color: #2e2f42;
+}
+
+.hero-section h1 {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
-  background-color: #2e2f42;
   color: #fff;
 }
 
@@ -73,8 +76,12 @@ a {
   cursor: pointer;
 }
 
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
+}
+
 .features-item h3,
-.team-card h3,
 .portfolio-card h3 {
   font-weight: 500;
   font-size: 20px;
@@ -84,7 +91,6 @@ a {
 }
 
 .features-item p,
-.team-card p,
 .portfolio-card p {
   font-weight: 400;
   font-size: 16px;
@@ -95,6 +101,25 @@ a {
 
 .team-section {
   background-color: #f4f4fd;
+}
+
+.team-section h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.team-card h3,
+.team-card p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
 }
 
 .team-card {
